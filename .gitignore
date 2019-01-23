@@ -9,6 +9,16 @@ target/
 *.deb
 *.changes
 *.buildinfo
+build-arch-stamp
+configure-stamp
+debhelper-build-stamp
+**/debian/files
+*.debian.tar.xz
+*.orig.tar.gz
+*.orig.tar.xz
+*.dsc
+*.egg-info
+**/debian/*/
 
 # Subdirectories in src
 src/hiredis/*
@@ -72,3 +82,13 @@ installer/x86_64/platforms/
 src/sonic-config-engine/**/*.pyc
 src/sonic-config-engine/build
 src/sonic-config-engine/sonic_config_engine.egg-info
+
+src/bash/bash-*/
+src/ixgbe/ixgbe-*/
+src/ixgbe/ixgbe*.tar.gz
+src/libwrap/tcp-wrappers-*/
+src/iproute/iproute-*/
+src/socat/socat-*/
+src/tacacs/nss/*/
+src/tacacs/pam/*/
+
